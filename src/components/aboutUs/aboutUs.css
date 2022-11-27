@@ -1,0 +1,33 @@
+
+.container-imgs{
+    width: 540px;
+}
+.mission, .vision, .team{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.mission-content, .vision-content, .team-content{
+    width: 60%;
+    text-align: center;
+}
+
+.faq_container{
+    width: 50%;
+    margin: 12% auto;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    padding: 50px;
+}
+.faq_container h1{
+    text-align: center;
+}
+
+.question1, .question2, .question3, .question4, .question5, .question6{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid rgb(227, 220, 220);
+    padding: 12px;
+}

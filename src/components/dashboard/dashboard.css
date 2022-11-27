@@ -1,0 +1,18 @@
+.sidebar{
+    color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #051046;
+    justify-content: space-between;
+    align-items: center;
+}
+.navlist{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.navlist li,
+.navpurpose li{
+    list-style: none;
+    padding: 3% 20px;
+}
